@@ -1,0 +1,72 @@
+.black{
+    background: rgb(36, 36, 36);
+    width: 550px;
+}
+.input-text{
+    background: #363636;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+ 
+.challenges h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.card {
+  position: relative;
+  width: 260px;
+  height: 370px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s ease
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.cards-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.card .overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.card .overlay h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.card .overlay a {
+  display: inline-block;
+  background: #e2c55c;
+  color: #111;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 200px;
+}
+.card .overlay a:hover {
+  background: #d6b84f;
+  color: #111;
+}
+.card .task-list  {
+  color: rgba(0, 0, 0, 0);
+}
